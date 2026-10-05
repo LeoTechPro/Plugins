@@ -1,0 +1,20 @@
+{
+  "name": "intdata",
+  "interface": {
+    "displayName": "Portable Plugins"
+  },
+  "plugins": [
+    {
+      "name": "intnode",
+      "source": {
+        "source": "local",
+        "path": "./plugins/intnode"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
